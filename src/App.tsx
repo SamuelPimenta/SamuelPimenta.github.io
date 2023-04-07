@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './Header';
+import SimpleParagraph from './SimpleParagraph';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header title='My React learning website'/>
+      <SimpleParagraph text="I'm using this website to learn a bit more about React"/>
+      <SimpleParagraph text="I decided to use Typescript because it's what the cool kids do."/>
     </div>
   );
 }
