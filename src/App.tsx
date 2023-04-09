@@ -1,13 +1,18 @@
-import React from 'react';
-import Header from './Header';
-import SimpleParagraph from './SimpleParagraph';
+import TopBar from './components/bars/TopBar';
+import About from './pages/About';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <Header title='My React learning website'/>
-      <SimpleParagraph text="I'm using this website to learn a bit more about React"/>
-      <SimpleParagraph text="I decided to use Typescript because it's what the cool kids do."/>
+  return ( 
+    <div className="app">
+      <TopBar/>
+      <Routes>
+        <Route path = "first-react-project/" element = {<Home/>}/>
+        <Route path = "first-react-project/about" element = {<About/>}/>
+        <Route path = "*" element = {<NotFound/>}/>
+      </Routes>
     </div>
   );
 }
