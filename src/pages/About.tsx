@@ -1,6 +1,6 @@
 import SimpleParagraph from '../components/text-components/SimpleParagraph';
 
-function About() {
+const About = () => {
   return (
     <div className="about">
       <SimpleParagraph text="Hey there, I'm Samuel."/>

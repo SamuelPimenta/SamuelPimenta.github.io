@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-function About() {
+const NotFound = () => {
   return (
     <div className="not-found">
       <p>Are you lost traveller? Would you like to go {<NavLink to="first-react-project/">HOME</NavLink>}?</p>
@@ -8,4 +8,4 @@ function About() {
   );
 }
 
-export default About;
+export default NotFound;
