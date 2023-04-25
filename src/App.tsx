@@ -13,10 +13,10 @@ function App() {
       <TopBar/>
       <CatFact/>
       <Routes>
-        <Route path = "first-react-project/" element = {<Home/>}/>
-        <Route path = "first-react-project/about" element = {<About/>}/>
-        <Route path = "first-react-project/to-do" element = {<ToDosPage/>}/>
-        <Route path = "first-react-project/parallax" element = {<Parallax/>}/>
+        <Route path = "/" element = {<Home/>}/>
+        <Route path = "/about" element = {<About/>}/>
+        <Route path = "/to-do" element = {<ToDosPage/>}/>
+        <Route path = "/parallax" element = {<Parallax/>}/>
         <Route path = "*" element = {<NotFound/>}/>
       </Routes>
     </div>
