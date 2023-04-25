@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/first-react-project/static/css/main.16768d6d.css",
-    "main.js": "/first-react-project/static/js/main.0e123b18.js",
+    "main.css": "/first-react-project/static/css/main.388c4714.css",
+    "main.js": "/first-react-project/static/js/main.87249cc8.js",
     "static/js/787.28cb0dcd.chunk.js": "/first-react-project/static/js/787.28cb0dcd.chunk.js",
+    "static/media/parallax-background.jpg": "/first-react-project/static/media/parallax-background.863b402f10e8fd00c76d.jpg",
     "index.html": "/first-react-project/index.html",
-    "main.16768d6d.css.map": "/first-react-project/static/css/main.16768d6d.css.map",
-    "main.0e123b18.js.map": "/first-react-project/static/js/main.0e123b18.js.map",
+    "main.388c4714.css.map": "/first-react-project/static/css/main.388c4714.css.map",
+    "main.87249cc8.js.map": "/first-react-project/static/js/main.87249cc8.js.map",
     "787.28cb0dcd.chunk.js.map": "/first-react-project/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16768d6d.css",
-    "static/js/main.0e123b18.js"
+    "static/css/main.388c4714.css",
+    "static/js/main.87249cc8.js"
   ]
 }
