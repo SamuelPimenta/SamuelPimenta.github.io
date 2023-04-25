@@ -1,8 +1,8 @@
 import React from 'react';
 
-const SimpleParagraph = (props: {text: string}) => {
+const SimpleParagraph = (props: {text: string, cssClassName?: string}) => {
   return (
-    <p>{props.text}</p>
+    <p className={props.cssClassName}>{props.text}</p>
   );
 };
 

@@ -1,0 +1,11 @@
+.cat-fact {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+  }
+
+.cat-fact-button {
+    font-size: 3rem;
+    background-color: transparent;
+    border: none;
+}
