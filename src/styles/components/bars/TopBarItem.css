@@ -1,0 +1,23 @@
+.topbar-item {
+  display: inline-block;
+  margin: 0 6px;
+  padding: 4px 6px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #c2b280;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.topbar-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.topbar-item.active {
+  background-color: #a3936d;
+}

@@ -1,12 +1,13 @@
-import { NavLink } from "react-router-dom";
+import  "../../styles/components/bars/TopBar.css";
+import TopBarItem from "./TopBarItem";
 
 const TopBar = () => {
     return (
         <div className="top-bar">
-            <NavLink to="/">Home </NavLink>
-            <NavLink to="/about"> About </NavLink>
-            <NavLink to="/to-do"> To Do</NavLink>
-            <NavLink to="/parallax"> Parallax Effect</NavLink>
+            <TopBarItem path="/" text='Home'/>
+            <TopBarItem path="/about" text='About'/>
+            <TopBarItem path="/to-do" text='To Do'/>
+            <TopBarItem path="/parallax" text='Parallax Effect'/>
         </div>
     );
   };

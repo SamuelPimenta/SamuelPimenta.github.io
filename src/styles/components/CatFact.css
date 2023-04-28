@@ -1,6 +1,6 @@
 .cat-fact {
-    position: absolute;
-    top: 3%;
+    position: fixed;
+    top: 4%;
     right: 3%;
   }
 
