@@ -1,6 +1,6 @@
 .cat-fact {
     position: fixed;
-    top: 4%;
+    top: 1%;
     right: 3%;
   }
 
@@ -8,4 +8,13 @@
     font-size: 3rem;
     background-color: transparent;
     border: none;
+    cursor: pointer;
+}
+
+.cat-fact-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0.3rem;
+    cursor: help;
 }

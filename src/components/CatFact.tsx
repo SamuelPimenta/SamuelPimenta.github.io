@@ -1,3 +1,4 @@
+import { Tooltip } from 'react-tooltip';
 import axios from 'axios';
 import '../styles/components/CatFact.css' 
 
@@ -21,6 +22,10 @@ function CatFact() {
 
   return (
     <div className='cat-fact'>
+      <Tooltip id="my-tooltip" />
+      <div className='cat-fact-info' data-tooltip-id="my-tooltip" data-tooltip-content="Click the cat for a cool fact!">
+        &#128712;
+        </div>
       <button className='cat-fact-button' onClick={handleButtonClick}>
         <span role="img" aria-label="Cat symbol">&#x1F408;</span>
       </button>
