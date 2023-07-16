@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import ToDosPage from './pages/ToDosPage';
 import CatFact from './components/CatFact';
 import Parallax from './pages/Parallax';
+import Hooks from './pages/Hooks';
 
 function App() {
   return ( 
@@ -17,6 +18,7 @@ function App() {
         <Route path = "/about" element = {<About/>}/>
         <Route path = "/to-do" element = {<ToDosPage/>}/>
         <Route path = "/parallax" element = {<Parallax/>}/>
+        <Route path = "/hooks" element = {<Hooks/>}/>
         <Route path = "*" element = {<NotFound/>}/>
       </Routes>
     </div>

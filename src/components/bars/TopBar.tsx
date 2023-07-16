@@ -8,6 +8,7 @@ const TopBar = () => {
             <TopBarItem path="/about" text='About'/>
             <TopBarItem path="/to-do" text='To Do'/>
             <TopBarItem path="/parallax" text='Parallax Effect'/>
+            <TopBarItem path="/hooks" text='Fun with hooks'/>
         </div>
     );
   };
